@@ -1,0 +1,287 @@
+
+@import "colores";
+
+$ancho: 20px;
+
+
+.footer_twitter{
+	
+ width: $ancho;
+	
+}
+
+.footer_facebook{
+	
+ width: $ancho*2;
+
+}
+
+
+@for $i from 1 through 4 {
+.imgfragancias-#{$i}{border-radius: 5em * $i}
+
+}
+
+
+.bloque{
+	
+	background-color: #fffff9;
+}
+
+.bloque__img{
+	
+	border-radius: 20px 20px 0 0;
+}
+
+.noticia{
+	
+	font-family:"Source Sans",sans-serif;
+}
+
+.noticia__destacada{
+	
+	font-size: 20px;
+}
+
+
+.centrar {
+  text-align: center;
+}
+
+
+
+* {
+      margin: 0px;
+      padding: 0px;
+  }
+
+
+p {
+  color: black;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  margin: 6px;
+}
+
+
+ input{
+
+   margin:  10px;
+ }
+
+
+ #nav{
+       height: 60px;
+       text-align: center;
+      border-bottom: 1px solid #808B96;
+     }
+ 
+     #nav ul{
+        list-style: none;
+        display: inline-block;
+
+     }
+ 
+     #nav ul li{
+         float: left;
+         margin: 12px;
+         padding: 5px;
+        border-radius: 5px 5px 5px 5px;
+
+     }
+ 
+     #nav ul li a {
+         color: black;
+         font-weight: bold;
+         text-decoration: none;
+         font-size: 20px;
+         padding: 20px;
+
+     }
+ 
+
+
+    footer {
+    background-color: black;
+    text-align: center;
+	  padding: 10px 30px ;
+
+     }
+
+
+
+	footer p {
+		color: #f8f8f8;
+		font-size: 14px;
+	}
+
+
+
+	table {
+	    font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size:20px;
+      text-align: center;
+      width: 600px;
+      margin: 0 auto;
+      border: solid black 1px; 
+      border-spacing: 10px; 
+	}
+
+
+	thead {
+	  background: black;
+	}
+
+	th {
+	  color: white;
+    border: 10px solid black;
+	}
+
+	tbody{
+
+     background: #F0FCFB;
+
+	}
+
+	td{
+
+    font-family: serif;
+
+	}
+
+  ol{
+
+    list-style: none;
+  }
+
+
+	h3 {
+	  color: black;
+	  font-size: 40px;
+    font-family: "Times New Roman", Times, serif;;
+	}
+
+  h2 {
+    color: black;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;;
+  }
+
+
+	h4 {
+	  color: white;
+	  background: black;	
+	  font-weight: normal;
+	  font-size: 25px;
+	  font-family: Arial;
+	}
+
+
+	.menu ul li  {
+    margin: 0 auto;
+    padding: 25px;
+    width: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    }
+
+
+  form {
+   padding:2px;
+   cursor:pointer;
+   display:block;
+   width:290px;
+   margin: 0 auto;
+   text-align:left;
+   } 
+
+
+ .ImageContainer{
+ /* background-color: Azure;*/
+ /* border: 1px solid MidnightBlue;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.ImageContainer img {
+-webkit-transition:all .9s ease; /* Safari y Chrome */
+-moz-transition:all .9s ease; /* Firefox */
+-o-transition:all .9s ease; /* IE 9 */
+-ms-transition:all .9s ease; /* Opera */
+ margin: 40px;
+}
+
+
+.ImageContainer:hover img {
+-webkit-transform:scale(1.15);
+-moz-transform:scale(1.15);
+-ms-transform:scale(1.15);
+-o-transform:scale(1.15);
+transform:scale(1.15);
+}
+
+
+
+.inferior {
+    display: grid;
+    grid-template-rows: 4rem auto 40px;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    grid-template-areas: "footer footer footer footer";
+}
+
+.inferior footer {
+    grid-area: footer;
+}
+
+
+ .ImageContainer2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.ImageContainer2 img {
+-webkit-transition:all .9s ease; /* Safari y Chrome */
+-moz-transition:all .9s ease; /* Firefox */
+-o-transition:all .9s ease; /* IE 9 */
+-ms-transition:all .9s ease; /* Opera */
+ margin: 40px;
+}
+
+
+.ImageContainer2:hover img {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+
+.color-fondo {
+    /*background-image: url("../img/fondo.jpg");*/
+    background-color: #e6e6e6 ; 
+}
+
+.imagen-fondo {
+    /*background-image: url("../img/fondo.jpg");*/
+    background-color: #F7F9F9  ; 
+}
+
+
+.boton1
+{
+   width: 200px;
+}
+
+.boton2
+{
+    width: 200px;
+    margin-left: 100px
+}
+
+
+
