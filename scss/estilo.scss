@@ -1,7 +1,7 @@
 
 @import "colores";
 
-$ancho: 20px;
+$ancho: 30px;
 
 
 .footer_twitter{
@@ -12,7 +12,7 @@ $ancho: 20px;
 
 .footer_facebook{
 	
- width: $ancho*2;
+ width: 48px;
 
 }
 
@@ -41,12 +41,28 @@ $ancho: 20px;
 .noticia__destacada{
 	
 	font-size: 20px;
+  background: #000;
+}
+
+.informacion_oportunidades{
+  
+ color: black;
 }
 
 
 .titulo_fragancias{
   
   background: #000;
+}
+
+.imagen_logo{
+  
+  width: 120px;
+}
+
+.letras_footer{
+  
+  font-size: 18px;
 }
 
 
@@ -63,7 +79,7 @@ $ancho: 20px;
 
 
 p {
-  color: black;
+  color: white;
   font-family: 'Arimo', sans-serif;
   text-align: center;
   margin: 6px;
